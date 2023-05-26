@@ -7,7 +7,7 @@ export const FeedbackOptionsWrapper = styled.div`
 `;
 
 export const FeedbackButton = styled.button`
-  display: inline-block;
+   display: inline-block;
   font-size: 16px;
   font-weight: 700;
   text-transform: uppercase;
@@ -16,10 +16,10 @@ export const FeedbackButton = styled.button`
   text-decoration: none;
   outline: none;
   background-color: rgb(10, 120, 10);
-  box-shadow: inset 0 0 3px 1px rgba(0, 0, 0, 0.8);
+  box-shadow: inset 0 0 3px 1px rgba(0, 0, 0, 0.8); 
   margin: 0 10px;
   padding: 10px 20px;
-  /* background-color: #fff; */
+  /* background-color: #fff;  */
   border: 1px solid #333;
   border-radius: 4px;
   cursor: pointer;
@@ -30,7 +30,7 @@ export const FeedbackButton = styled.button`
   }
 `;
 
-export default {
-  FeedbackOptionsWrapper,
-  FeedbackButton,
-};
+// export {
+//   FeedbackOptionsWrapper,
+//   FeedbackButton,
+// };

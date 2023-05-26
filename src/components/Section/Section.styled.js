@@ -20,8 +20,8 @@ export const SectionContent = styled.div`
   margin-top: 10px;
 `;
 
-export default {
-  SectionWrapper,
-  SectionTitle,
-  SectionContent,
-};
+// export {
+//   SectionWrapper,
+//   SectionTitle,
+//   SectionContent,
+// };

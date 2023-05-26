@@ -1,11 +1,13 @@
 import styled from 'styled-components';
 
 export const StatisticsWrapper = styled.div`
+  text-align: center;
   margin-bottom: 20px;
 `;
 
 export const StatisticItem = styled.p`
-  margin: 5px 0;
+  margin-bottom: 10px;
+  
 `;
 
 export const StatisticLabel = styled.span`
@@ -16,9 +18,9 @@ export const StatisticValue = styled.span`
   margin-left: 5px;
 `;
 
-export default {
-  StatisticsWrapper,
-  StatisticItem,
-  StatisticLabel,
-  StatisticValue,
-};
+// export {
+//   StatisticsWrapper,
+//   StatisticItem,
+//   StatisticLabel,
+//   StatisticValue,
+// };
